@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+    <title>Registro de Asistencia</title>
+</head>
+<body>
+    <h1>Registro de Asistencia</h1>
+    <form method="POST">
+        <label for="dni">Ingrese su DNI:</label>
+        <input type="text" id="dni" name="dni" required>
+        <input type="submit" value="Registrar Asistencia">
+    </form>
+    <p>{{ mensaje }}</p>
+</body>
+</html>
