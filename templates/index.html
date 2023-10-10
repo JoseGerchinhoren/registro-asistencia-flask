@@ -2,7 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="/static/styles.css">
-    <script src="app.js"></script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
     <title>Registro de Asistencia</title>
 </head>
 <body>
@@ -13,5 +13,7 @@
         <input type="submit" value="Registrar Asistencia">
     </form>
     <p>{{ mensaje }}</p>
+    <div id="mensaje-emergente" class="mensaje-emergente" style="display: none;">{{ mensaje_emergente }}</div>
+    {{ script|safe }}
 </body>
 </html>

@@ -44,6 +44,10 @@ def index():
                     conn.commit()
                     mensaje = f"Asistencia registrada para DNI {dni}"
                     mostrar_mensaje = True
+                    informacion_del_cliente = "Cliente"
+                    mensaje_emergente = f"Información del cliente: {informacion_del_cliente}"  # Reemplaza con la información real del cliente
+                    script = f"<script>mostrarMensajeEmergente('{mensaje_emergente}');</script>"
+                    return render_template("index.html", mensaje=mensaje, mostrar_mensaje=mostrar_mensaje, mensaje_emergente=mensaje_emergente, script=script)
                 else:
                     mensaje = "Cliente no encontrado."
 
@@ -52,6 +56,7 @@ def index():
                 mensaje = f"Error al registrar la asistencia: {str(e)}"
 
     return render_template("index.html", mensaje=mensaje, mostrar_mensaje=mostrar_mensaje)
+
 
 # Ruta para obtener información del cliente por AJAX
 @app.route("/cliente_info/<dni>")
