@@ -34,7 +34,7 @@ def index():
 
                 # Agrega la lógica para verificar el DNI en la base de datos (puede variar según tu esquema de base de datos)
                 # Supongamos que tienes una tabla "clientes" con una columna "dni" y una columna "idCliente"
-                cursor.execute("SELECT idCliente FROM clientes WHERE dni = ?", dni)
+                cursor.execute("SELECT idCliente FROM Cliente WHERE dni = ?", dni)
                 id_cliente = cursor.fetchone()
 
                 if id_cliente:
