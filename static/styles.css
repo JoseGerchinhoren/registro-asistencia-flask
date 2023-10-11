@@ -29,7 +29,7 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    background-color: #007bff;
+    background-color: #48ff00;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -38,17 +38,19 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #48ff00;
 }
 
-.mensaje-emergente {
-    display: none; /* Inicialmente oculto */
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+#mensaje-emergente {
+    display: none;
+    background-color: #48ff00; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 3px;
+    text-align: center; /* Alinear texto al centro */
+    position: absolute;
+    bottom: 0; /* Lo coloca en la parte inferior */
+    left: 0; /* Lo coloca en la esquina izquierda */
+    width: 100%; /* Ancho completo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra */
 }

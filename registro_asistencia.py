@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, jsonify
 import pyodbc
 from datetime import datetime
 import json
-import time
 
 app = Flask(__name__)
 
@@ -46,8 +45,9 @@ def index():
                     mostrar_mensaje = True
                     informacion_del_cliente = "Cliente"
                     mensaje_emergente = f"Información del cliente: {informacion_del_cliente}"  # Reemplaza con la información real del cliente
+                    mensaje_html = f"{mensaje}<br><div id='mensaje-emergente' class='mensaje-emergente'>{mensaje_emergente}</div>"
                     script = f"<script>mostrarMensajeEmergente('{mensaje_emergente}');</script>"
-                    return render_template("index.html", mensaje=mensaje, mostrar_mensaje=mostrar_mensaje, mensaje_emergente=mensaje_emergente, script=script)
+                    return render_template("index.html", mensaje=mensaje_html, mostrar_mensaje=mostrar_mensaje, mensaje_emergente=mensaje_emergente, script=script)
                 else:
                     mensaje = "Cliente no encontrado."
 
@@ -56,7 +56,6 @@ def index():
                 mensaje = f"Error al registrar la asistencia: {str(e)}"
 
     return render_template("index.html", mensaje=mensaje, mostrar_mensaje=mostrar_mensaje)
-
 
 # Ruta para obtener información del cliente por AJAX
 @app.route("/cliente_info/<dni>")
