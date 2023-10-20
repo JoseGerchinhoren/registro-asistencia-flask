@@ -1,33 +1,40 @@
-function mostrarMensajeEmergente(mensaje) {
-    var mensajeEmergente = document.getElementById('mensaje-emergente');
-    mensajeEmergente.textContent = mensaje;
-    mensajeEmergente.style.display = 'block';
+document.addEventListener("DOMContentLoaded", function () {
+    // Agrega un evento para el formulario de asistencia
+    document.getElementById("asistencia-form").addEventListener("submit", function (e) {
+        e.preventDefault(); // Evita el envío normal del formulario
 
-    // Ocultar el mensaje después de 5 segundos
-    setTimeout(function() {
-        mensajeEmergente.style.display = 'none';
-    }, 5000); // 5 segundos en milisegundos
-}
+        // Realiza una solicitud AJAX para obtener la información del cliente
+        const dni = document.getElementById("dni").value;
+        fetch(`/cliente_info/${dni}`)
+            .then(response => {
+                console.log("Respuesta de la solicitud AJAX:", response);
+                return response.json();
+            })
+            .then(data => {
+                console.log("Datos recibidos:", data);
 
-document.addEventListener("DOMContentLoaded", function() {
-    var form = document.querySelector("form");
-    var dniInput = document.getElementById("dni");
+                if (data.cliente) {
+                    const cliente = data.cliente;
+                    const mensajeEmergente = document.getElementById("mensaje-emergente");
+                    mensajeEmergente.innerHTML = `
+                        <p>Información del Cliente:</p>
+                        <p>Nombre: ${cliente.nombre}</p>
+                        <p>Estado de la Cuota: ${cliente.estado_cuota}</p>
+                        <p>Días en el Mes: ${cliente.dias_en_el_mes}</p>
+                    `;
+                    mensajeEmergente.style.display = "block";
 
-    form.addEventListener("submit", function(event) {
-        event.preventDefault();  // Evita que se envíe el formulario de forma predeterminada
-
-        // Realiza aquí la lógica para mostrar el mensaje emergente con la información del cliente
-        mostrarMensajeEmergente("Información del cliente: ...");  // Reemplaza con la información real del cliente
-
-        // Borra el contenido del campo de DNI inmediatamente
-        dniInput.value = "";
-
-        // Coloca automáticamente el cursor en el campo de DNI inmediatamente
-        dniInput.focus();
+                    // Oculta el mensaje emergente después de 10 segundos
+                    setTimeout(() => {
+                        mensajeEmergente.style.display = "none";
+                        document.getElementById("dni").value = ""; // Limpia el campo DNI
+                    }, 10000);
+                } else {
+                    alert("Cliente no encontrado.");
+                }
+            })
+            .catch(error => {
+                console.error("Error en la solicitud AJAX:", error);
+            });
     });
-});
-
-document.addEventListener("DOMContentLoaded", function() {
-    var dniInput = document.getElementById("dni");
-    dniInput.focus();
 });

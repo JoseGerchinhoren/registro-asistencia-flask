@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, jsonify
 import pyodbc
 from datetime import datetime
 import json
+import time
 
 app = Flask(__name__)
 
@@ -30,24 +31,16 @@ def index():
         if dni and len(dni) == 8:  # Verifica que el DNI tenga 8 dígitos
             try:
                 cursor = conn.cursor()
-
-                # Agrega la lógica para verificar el DNI en la base de datos (puede variar según tu esquema de base de datos)
-                # Supongamos que tienes una tabla "clientes" con una columna "dni" y una columna "idCliente"
-                cursor.execute("SELECT idCliente FROM Cliente WHERE dni = ?", dni)
+                sql = "SELECT idCliente FROM Cliente WHERE dni = ?"
+                cursor.execute(sql, dni)
                 id_cliente = cursor.fetchone()
 
                 if id_cliente:
-                    # Registra la asistencia en la tabla "asistencia"
-                    cursor.execute("INSERT INTO Asistencia (idCliente, fecha, hora, dni) VALUES (?, ?, ?, ?)",
-                                   id_cliente[0], datetime.now().date(), datetime.now().time(), dni)
+                    sql_insert = "INSERT INTO Asistencia (idCliente, fecha, hora, dni) VALUES (?, ?, ?, ?)"
+                    cursor.execute(sql_insert, id_cliente[0], datetime.now().date(), datetime.now().time(), dni)
                     conn.commit()
                     mensaje = f"Asistencia registrada para DNI {dni}"
                     mostrar_mensaje = True
-                    informacion_del_cliente = "Cliente"
-                    mensaje_emergente = f"Información del cliente: {informacion_del_cliente}"  # Reemplaza con la información real del cliente
-                    mensaje_html = f"{mensaje}<br><div id='mensaje-emergente' class='mensaje-emergente'>{mensaje_emergente}</div>"
-                    script = f"<script>mostrarMensajeEmergente('{mensaje_emergente}');</script>"
-                    return render_template("index.html", mensaje=mensaje_html, mostrar_mensaje=mostrar_mensaje, mensaje_emergente=mensaje_emergente, script=script)
                 else:
                     mensaje = "Cliente no encontrado."
 
