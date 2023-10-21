@@ -7,11 +7,12 @@
 </head>
 <body>
     <h1>Registro de Asistencia</h1>
-    <form method="POST">
+    <form method="POST" id="asistencia-form">
         <label for="dni">Ingrese su DNI:</label>
         <input type="text" id="dni" name="dni" required>
         <input type="submit" value="Registrar Asistencia">
     </form>
+    <div id="mensaje-emergente"></div>
     <p>{{ mensaje }}</p>
 </body>
 </html>

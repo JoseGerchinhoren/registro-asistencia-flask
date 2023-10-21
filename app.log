@@ -1,0 +1,216 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:31:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:31:25] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:31:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:31:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:31:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:31:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:31:27] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:31:32] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:31:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:31:32] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:32:23] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:32:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:32:23] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:53:17] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:53:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:53:17] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:58:04] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:58:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:58:04] "GET /static/app.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:58:06] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:58:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:58:06] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:58:13] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:58:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:58:13] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:58:15] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:58:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:58:16] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:58:18] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:58:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:58:19] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:59:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:59:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:59:27] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:59:30] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:59:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 16:59:30] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:00:16] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:00:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:00:16] "GET /static/app.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:00:18] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:00:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:00:18] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:00:20] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:00:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:00:20] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:02:43] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:02:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:02:43] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:02:45] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:02:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:02:45] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:05:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:07:08] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:07:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:07:08] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+ERROR:root:Error al obtener información del cliente: ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'clientes'. (208) (SQLExecDirectW)")
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:07:11] "GET /cliente_info/40466464 HTTP/1.1" 200 -
+ERROR:root:Error al obtener información del cliente: ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'clientes'. (208) (SQLExecDirectW)")
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:07:25] "GET /cliente_info/40466464 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:09:13] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:09:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:09:13] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+ERROR:root:Error al obtener información del cliente: Object of type Row is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:09:15] "GET /cliente_info/40466464 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:29:47] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:29:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:29:47] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+ERROR:root:Error al obtener información del cliente: 'pyodbc.Row' object has no attribute 'nombre'
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:29:51] "GET /cliente_info/40466464 HTTP/1.1" 200 -
+ERROR:root:Error al obtener información del cliente: 'pyodbc.Row' object has no attribute 'nombre'
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:29:54] "GET /cliente_info/40466464 HTTP/1.1" 200 -
+ERROR:root:Error al obtener información del cliente: 'pyodbc.Row' object has no attribute 'nombre'
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:29:56] "GET /cliente_info/40466464 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:35:31] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:35:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:35:31] "GET /static/app.js HTTP/1.1" 200 -
+ERROR:root:Error al obtener información del cliente: 'pyodbc.Row' object has no attribute 'nombre'
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:35:33] "GET /cliente_info/40466464 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:37:26] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:37:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:37:27] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+ERROR:root:Error al obtener información del cliente: ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'nombre'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'estado_cuota'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'dias_en_el_mes'. (207)")
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:37:29] "GET /cliente_info/40466464 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:45:48] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:45:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:45:48] "GET /static/app.js HTTP/1.1" 200 -
+ERROR:root:Error al obtener información del cliente: name 'clientenombre' is not defined
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 17:45:50] "GET /cliente_info/40466464 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 18:08:51] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 18:08:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 18:08:51] "GET /static/app.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 18:08:53] "GET /cliente_info/40466464 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 18:33:12] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 18:33:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 18:33:12] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 18:33:16] "GET /cliente_info/40466464 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 18:33:41] "GET /cliente_info/40466464 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 18:51:44] "GET /cliente_info/40466464 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 18:52:02] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 18:52:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 18:52:02] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 18:52:05] "GET /cliente_info/40466464 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 18:52:22] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 18:52:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 18:52:22] "GET /static/app.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 18:52:24] "GET /cliente_info/40466464 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Oct/2023 18:52:48] "GET /cliente_info/40466464 HTTP/1.1" 200 -

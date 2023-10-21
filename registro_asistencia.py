@@ -59,16 +59,17 @@ def index():
 def cliente_info(dni):
     try:
         cursor = conn.cursor()
-        cursor.execute("SELECT * FROM clientes WHERE dni = ?", dni)
+        cursor.execute("SELECT nombreApellido FROM Cliente WHERE dni = ?", dni)
         cliente = cursor.fetchone()
         cursor.close()
         if cliente:
-            return jsonify(cliente=cliente)
+            cliente_info = {'nombreApellido': cliente.nombreApellido}
+            return jsonify(cliente=cliente_info)
         else:
             return jsonify(error="Cliente no encontrado")
     except Exception as e:
-        return jsonify(error=str(e))
         logging.error(f"Error al obtener información del cliente: {str(e)}")
+        return jsonify(error=str(e))
 
 if __name__ == "__main__":
     app.run(debug=True)
