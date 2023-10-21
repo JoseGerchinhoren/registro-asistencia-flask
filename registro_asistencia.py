@@ -2,9 +2,12 @@ from flask import Flask, render_template, request, jsonify
 import pyodbc
 from datetime import datetime
 import json
-import time
+import logging
 
 app = Flask(__name__)
+
+# Configuración de registro
+logging.basicConfig(filename='app.log', level=logging.DEBUG)
 
 # Configuración de la conexión a la base de datos SixGym
 # Cargar configuración desde el archivo config.json
@@ -47,6 +50,7 @@ def index():
                 cursor.close()
             except Exception as e:
                 mensaje = f"Error al registrar la asistencia: {str(e)}"
+                logging.error(f"Error al registrar asistencia: {str(e)}")
 
     return render_template("index.html", mensaje=mensaje, mostrar_mensaje=mostrar_mensaje)
 
@@ -64,6 +68,7 @@ def cliente_info(dni):
             return jsonify(error="Cliente no encontrado")
     except Exception as e:
         return jsonify(error=str(e))
+        logging.error(f"Error al obtener información del cliente: {str(e)}")
 
 if __name__ == "__main__":
     app.run(debug=True)
