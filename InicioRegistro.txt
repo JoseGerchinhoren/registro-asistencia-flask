@@ -1,0 +1,3 @@
+@echo off
+start cmd /k "python D:\José\Proyecto_Gimnasio\registro-asistencia-flask.py"
+start "" "http://127.0.0.1:5000/"
