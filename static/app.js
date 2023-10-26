@@ -21,11 +21,18 @@ document.addEventListener("DOMContentLoaded", function () {
                     const mensajeEmergente = document.getElementById("mensaje-emergente");
                     mensajeEmergente.innerHTML = `
                         <p>Información del Cliente:</p>
-                        <p>Nombre: ${cliente.nombreApellido}</p>`;
-                        // <p>Estado de la Cuota: ${cliente.estado_cuota}</p>
-                        // <p>Días en el Mes: ${cliente.dias_en_el_mes}</p>
-                    // `;
+                        <p>Nombre: ${cliente.nombreApellido}</p>
+                        <p>Estado de la Cuota: ${cliente.estado_cuota}</p>`;
                     mensajeEmergente.style.display = "block";
+
+                    // Reproduce el sonido basado en el estado de la cuota
+                    if (cliente.color_cuota === "green") {
+                        // Cliente con cuota al día
+                        new Audio("ruta/al/sonido_cuota_al_dia.mp3").play();
+                    } else {
+                        // Cliente con cuota vencida o sin pagos registrados
+                        new Audio("ruta/al/sonido_cuota_vencida.mp3").play();
+                    }
 
                     // Oculta el mensaje emergente después de 10 segundos
                     setTimeout(() => {

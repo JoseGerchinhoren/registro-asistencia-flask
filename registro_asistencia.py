@@ -1,8 +1,9 @@
 from flask import Flask, render_template, request, jsonify
 import pyodbc
-from datetime import datetime
+from datetime import datetime, timedelta
 import json
 import logging
+from dateutil.relativedelta import relativedelta
 
 app = Flask(__name__)
 
@@ -54,17 +55,58 @@ def index():
 
     return render_template("index.html", mensaje=mensaje, mostrar_mensaje=mostrar_mensaje)
 
+# Función para calcular el estado de la cuota
+def calcular_estado_cuota(ultima_fecha_pago, fecha_actual):
+    if ultima_fecha_pago:
+        # Obtener la fecha de hoy como datetime.date si es un objeto datetime.datetime
+        if isinstance(fecha_actual, datetime):
+            fecha_actual = fecha_actual.date()
+
+        # Calcular la fecha de vencimiento (1 mes después de la última fecha de pago)
+        fecha_vencimiento = ultima_fecha_pago + relativedelta(months=1)
+
+        if fecha_actual < fecha_vencimiento:
+            estado_texto = "Cuota al día"
+            estado_color = "green"
+        elif fecha_actual == fecha_vencimiento:
+            estado_texto = "Vence hoy"
+            estado_color = "yellow"
+        else:
+            estado_texto = "Cuota vencida"
+            estado_color = "red"
+    else:
+        estado_texto = "Sin pagos registrados"
+        estado_color = "gray"
+
+    return estado_texto, estado_color
+
 # Ruta para obtener información del cliente por AJAX
 @app.route("/cliente_info/<dni>")
 def cliente_info(dni):
     try:
         cursor = conn.cursor()
-        cursor.execute("SELECT nombreApellido FROM Cliente WHERE dni = ?", dni)
-        cliente = cursor.fetchone()
-        cursor.close()
-        if cliente:
-            cliente_info = {'nombreApellido': cliente.nombreApellido}
-            return jsonify(cliente=cliente_info)
+        # Consulta para obtener el último pago del cliente
+        cursor.execute("""
+            SELECT C.nombreApellido, MAX(P.fechaPago) as ultima_fecha_pago
+            FROM Cliente C
+            LEFT JOIN Pago P ON C.idCliente = P.idCliente
+            WHERE C.dni = ?
+            GROUP BY C.nombreApellido
+        """, dni)
+
+        cliente_info = cursor.fetchone()
+
+        if cliente_info:
+            # Accede a las columnas por índice
+            nombre = cliente_info[0]
+            ultima_fecha_pago = cliente_info[1]
+            estado_texto, estado_color = calcular_estado_cuota(ultima_fecha_pago, datetime.now().date())
+
+            return jsonify(cliente={
+                'nombreApellido': nombre,
+                'estado_cuota': estado_texto,
+                'color_cuota': estado_color
+            })
         else:
             return jsonify(error="Cliente no encontrado")
     except Exception as e:

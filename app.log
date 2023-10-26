@@ -1,9 +1,121 @@
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:root:Error al obtener información del cliente: type object 'relativedelta' has no attribute 'relativedelta'
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:37:15] "GET /cliente_info/40466464 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
 INFO:werkzeug: * Restarting with watchdog (windowsapi)
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 732-854-436
-INFO:werkzeug:127.0.0.1 - - [22/Oct/2023 16:06:57] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [22/Oct/2023 16:06:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [22/Oct/2023 16:06:57] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Outlet\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\logging\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:42:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:42:48] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:42:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+ERROR:root:Error al obtener información del cliente: 'datetime.date' object has no attribute 'date'
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:42:50] "GET /cliente_info/40466464 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:45:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:45:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:45:13] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:45:14] "GET /cliente_info/40466464 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:45:14] "[33mGET /ruta/al/sonido_cuota_al_dia.mp3 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:46:18] "GET /cliente_info/40466464 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:46:18] "[33mGET /ruta/al/sonido_cuota_al_dia.mp3 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:47:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:47:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:47:08] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:47:10] "GET /cliente_info/40466464 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:47:10] "[33mGET /ruta/al/sonido_cuota_al_dia.mp3 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:47:34] "GET /cliente_info/56789012 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:47:34] "[33mGET /ruta/al/sonido_cuota_vencida.mp3 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Detected change in 'd:\\José\\Proyecto_Gimnasio\\registro-asistencia-flask\\registro_asistencia.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 732-854-436
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:50:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:50:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:50:13] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:50:15] "GET /cliente_info/40466464 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Oct/2023 14:50:15] "[33mGET /ruta/al/sonido_cuota_al_dia.mp3 HTTP/1.1[0m" 404 -
