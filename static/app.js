@@ -28,10 +28,10 @@ document.addEventListener("DOMContentLoaded", function () {
                     // Reproduce el sonido basado en el estado de la cuota
                     if (cliente.color_cuota === "green") {
                         // Cliente con cuota al día
-                        new Audio("ruta/al/sonido_cuota_al_dia.mp3").play();
+                        new Audio("/sounds/positive.mp3").play();
                     } else {
                         // Cliente con cuota vencida o sin pagos registrados
-                        new Audio("ruta/al/sonido_cuota_vencida.mp3").play();
+                        new Audio("/sounds/negative.mp3").play();
                     }
 
                     // Oculta el mensaje emergente después de 10 segundos

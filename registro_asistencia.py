@@ -1,6 +1,6 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, send_from_directory
 import pyodbc
-from datetime import datetime, timedelta
+from datetime import datetime
 import json
 import logging
 from dateutil.relativedelta import relativedelta
@@ -112,6 +112,16 @@ def cliente_info(dni):
     except Exception as e:
         logging.error(f"Error al obtener información del cliente: {str(e)}")
         return jsonify(error=str(e))
+    
+# Agrega una ruta para servir archivos estáticos (en este caso, archivos de sonido)
+@app.route('/sounds/<path:filename>')
+def download_file(filename):
+    return send_from_directory('static/sounds', filename)
+
+# Ruta para servir el archivo favicon.ico
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory('static', 'favicon.ico', mimetype='image/vnd.microsoft.icon')
 
 if __name__ == "__main__":
     app.run(debug=True)
